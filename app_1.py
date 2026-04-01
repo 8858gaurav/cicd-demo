@@ -34,3 +34,12 @@ def average_word_length(text: str) -> float:
     if not words:
         return 0.0
     return sum(len(w) for w in words) / len(words)
+print(clean_text("Hello World!"))
+print(word_count("Hello World! Hello"))
+print(most_common_word("Hello World! Hello"))
+print(average_word_length("Hello Worldddd!"))
+
+d ={}
+x = ('hellos', 'world', 'hello')
+for i in range(len(x)):
+    print(x[i])
